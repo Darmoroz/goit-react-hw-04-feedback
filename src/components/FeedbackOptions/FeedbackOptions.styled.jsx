@@ -12,5 +12,9 @@ export const ButtonGrid = styled.ul`
     min-width: ${p => p.theme.spacing(15)};
     border: none;
     border-radius: ${p => p.theme.spacing(2)};
+    cursor: pointer;
+    :hover {
+      transform: scale(1.1);
+    }
   }
 `;
